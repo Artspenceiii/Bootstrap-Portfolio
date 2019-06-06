@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -12,11 +14,22 @@
   <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">Your Name</a>
-      <nav>
+      <!-- <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
-      </nav>
+      </nav> -->
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
   </header>
 
@@ -24,7 +37,14 @@
     <section class="main-section">
       <h1>About Me</h1>
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+      <div class="container">
+        <div class="row">
+      
+    <div class="work col-sm-9 col-md-6 col-lg-3">
+      <img src="assets/images/cat.jpg" class="img-fluid" alt="Rock Paper Scissors">
+    </div>     
+    
+      <!-- <img src="assets/images/cat.jpg" class="auth-image img-fluid" alt="Your Name"> -->
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
